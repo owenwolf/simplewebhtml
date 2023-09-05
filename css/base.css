@@ -1,0 +1,26 @@
+:root {
+    --main-color-blue: #100D80;
+    --secund-color-isabelline: #F3F2EE;
+    --third-color-skyblue: #83D0E2;
+    --four-color-water: #2C68A6;
+    --five-color-white: white;
+}
+
+header {
+    background-color: var(--third-color-skyblue);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p,
+img,
+h1 {
+    color: var(--five-color-white);
+    padding: 1rem;
+}
+
+body {
+    background-color: var(--secund-color-isabelline);
+}
